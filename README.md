@@ -1,12 +1,12 @@
 # 🌊 Sea Creatures Classification Project
-A deep learning-based image classification system for identifying 20 different sea creatures using **EfficientNet** and **PyTorch**. This project includes both a training pipeline and a **Streamlit web application** for interactive classification.
+A deep learning-based image classification system for identifying 19 different sea creatures using **EfficientNet** and **PyTorch**. This project includes both a training pipeline and a **Streamlit web application** for interactive classification.
 ---
 ## 📋 **Project Overview**
 | Aspect | Description |
 |--------|-------------|
 | **Problem** | Image classification of marine animals |
-| **Solution** | Transfer learning with **EfficientNet** |
-| **Classes** | 20 sea creature categories |
+| **Solution** | Transfer learning with **EfficientNet** and **CLIP **|
+| **Classes** | 19 sea creature categories |
 | **Framework** | PyTorch 2.0+ |
 | **Web Interface** | **Streamlit** application |
 | **Accuracy** | **>90%** validation accuracy |
@@ -31,9 +31,9 @@ streamlit run sea_creatures_app.py
 Sea_Creatures_Project/
 │
 ├── 📁 data/
-│ ├── train/ # Training images (20 subfolders)
-│ ├── valid/ # Validation images (20 subfolders)
-│ └── test/ # Test images (20 subfolders)
+│ ├── train/ # Training images (19 subfolders)
+│ ├── valid/ # Validation images (19 subfolders)
+│ └── test/ # Test images (19 subfolders)
 │
 ├── 📁 models/
 │ ├── best_model_sea_creatures.pth # Trained model weights
@@ -44,7 +44,8 @@ Sea_Creatures_Project/
 │ ├── confusion_matrix.png # Model performance
 │ └── training_history.csv # Training metrics
 │
-├── sea_creatures_app.py # Streamlit web application
+├── Sea_Creatures_Detection_Web_efficientnet.py # Streamlit web application
+├── Sea_Creatures_Detection_Web_efficientnet_LLM.py # Streamlit web application
 ├── train_model.py # Training pipeline
 ├── inference.py # Standalone inference script
 ├── requirements.txt # Dependencies
