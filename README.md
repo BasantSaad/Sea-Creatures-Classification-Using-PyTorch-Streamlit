@@ -341,7 +341,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 **🐛 Found an issue?** Open a GitHub issue or submit a pull request.
 **❓ Questions?** Contact the maintainers or open a discussion.
 ---
-*Last Updated: April 2024*
+*Last Updated: December 2025*
 *Version: 1.0.0*
 ---
 <div align="center">
