@@ -46,7 +46,6 @@ Sea_Creatures_Project/
 ├── Sea_Creatures_Detection_Web_efficientnet.py # Streamlit web application
 ├── Sea_Creatures_Detection_Web_efficientnet_LLM.py # Streamlit web application
 ├── /Sea Creatures Detection_pytorch.ipynb
-├── inference.py # Standalone inference script
 ├── requirements.txt # Dependencies
 └── README.md # This file
 ```
