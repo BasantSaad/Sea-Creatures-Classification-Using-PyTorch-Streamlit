@@ -5,7 +5,7 @@ A deep learning-based image classification system for identifying 19 different s
 | Aspect | Description |
 |--------|-------------|
 | **Problem** | Image classification of marine animals |
-| **Solution** | Transfer learning with **EfficientNet** and **CLIP **|
+| **Solution** | Transfer learning with **EfficientNet** and **CLIP**|
 | **Classes** | 19 sea creature categories |
 | **Framework** | PyTorch 2.0+ |
 | **Web Interface** | **Streamlit** application |
