@@ -262,9 +262,9 @@ def predict_single_image(model, image_path, class_names, transform):
 ```
 ---
 ## 📈 **Results and Visualizations**
-### **Training History**
+### **Training History-efficientnet_b0**
 ![Training History](sea_creatures_model_test1/training_history.png)
-### **Confusion Matrix**
+### **Confusion Matrix-efficientnet_b0**
 ![Confusion Matrix](sea_creatures_model_test1/confusion_matrix.png)
 ### **Sample Predictions**
 | Input Image | Predicted Class | Confidence | Top-3 Alternatives |
