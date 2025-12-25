@@ -21,9 +21,9 @@ pip install streamlit pillow opencv-python pandas numpy matplotlib seaborn sciki
 ### **Running the Application**
 ```bash
 # Navigate to project directory
-cd "Sea Creatures project"
+cd "Sea-Creatures-Classification-Using-PyTorch-Streamlit"
 # Run the Streamlit web app
-streamlit run sea_creatures_app.py
+streamlit run Sea_Creatures_Detection_Web_efficientnet_LLM.py
 ```
 ---
 ## 📁 **Project Structure**
